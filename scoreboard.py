@@ -12,7 +12,6 @@ class Scoreboard(Turtle):
         self.hideturtle()
         self.updatesb(1)
 
-
     def updatesb(self, niv):
         self.penup()
         self.goto(-200, 260)

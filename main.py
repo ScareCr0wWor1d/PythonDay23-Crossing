@@ -20,6 +20,7 @@ char = CarManager()
 parking_lot.append(char)
 niv = Scoreboard()
 screen.onkeypress(totue.move_f, 'Up')
+screen.onkeypress(totue.move_b, 'Down')
 
 game_is_on = True
 while game_is_on:
