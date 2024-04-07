@@ -18,6 +18,10 @@ class Player(Turtle):
     def move_f(self):
         self.goto(self.xcor(), self.ycor()+MOVE_DISTANCE)
 
+    def move_b(self):
+        if self.ycor() > -280:
+            self.goto(self.xcor(), self.ycor()-MOVE_DISTANCE)
+
     def pos_init(self):
         self.goto(STARTING_POSITION)
 
